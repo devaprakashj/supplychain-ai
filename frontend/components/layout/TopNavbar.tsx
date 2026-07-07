@@ -134,10 +134,10 @@ export default function TopNavbar() {
           >
             <div className="w-6 h-6 rounded-lg flex items-center justify-center text-[10px] font-bold text-white"
               style={{ background: "linear-gradient(135deg, #2563eb, #7c3aed)" }}>
-              SA
+              DJ
             </div>
             <span className="hidden md:block text-xs font-medium" style={{ color: "var(--text-secondary)" }}>
-              Sarah Admin
+              Devaprakash J
             </span>
             <ChevronDown size={12} style={{ color: "var(--text-muted)" }} />
           </button>
@@ -159,8 +159,8 @@ export default function TopNavbar() {
                 }}
               >
                 <div className="px-4 py-3 border-b border-white/5">
-                  <p className="text-xs font-semibold text-white">Sarah Admin</p>
-                  <p className="text-[11px]" style={{ color: "var(--text-muted)" }}>admin@supplychain.ai</p>
+                  <p className="text-xs font-semibold text-white">Devaprakash J</p>
+                  <p className="text-[11px]" style={{ color: "var(--text-muted)" }}>devaprakashj@supplychain.ai</p>
                 </div>
                 {["Profile", "Settings", "API Keys", "Sign Out"].map((item) => (
                   <button key={item} className="w-full text-left px-4 py-2 text-xs hover:bg-white/[0.03] transition-colors"
